@@ -31,21 +31,21 @@ body {
     border: 1em solid transparent;
     border-radius: 11em;
     animation-name: lights;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 @keyframes lights {
     0% {
         background-color: blue;
-        box-shadow: 0 2px 70px 1px blue;
+        box-shadow: 0 20px 70px 8px blue;
     }
 
     50% {
         background-color: red;
-        box-shadow: 0 2px 70px 1px red;
+        box-shadow: 0 0px 70px 8px red;
     }
     100% {
         background-color: green;
-        box-shadow: 0 2px 70px 1px green;
+        box-shadow: 0 0px 70px 8px green;
     }
 }
