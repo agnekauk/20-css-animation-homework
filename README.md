@@ -9,9 +9,7 @@ _32 group website project_
 
 This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! **_Thank you for your cooperation!_**
 
-Site published at: https://agnekauk.github.io/nd-forma/
-
-Design: [Forma](https://www.netsolutions.com/insights/wp-content/uploads/2021/05/form-design-best-practices-break-up-forms-into-multiple-steps.jpg)
+Site published at: https://https://agnekauk.github.io/20-css-animation-homework/
 
 ## Project features
 
