@@ -11,11 +11,14 @@ body * {
 body {
     position: relative;
     height: 100vh;
-    padding: 80px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-body > * {
-    margin: 80px;
-}
+
 
 .bulb {
     display: inline-block;
@@ -24,7 +27,7 @@ body > * {
     background-image: url(./img/bulb.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
+    background-position: center;
     position: relative;
 }
 .bulb > .light {
@@ -33,8 +36,8 @@ body > * {
     top: 0;
     transform: translateX(-50%);
     font-size: 10px;
-    width: 22em;
-    height: 22em;
+    width: 20em;
+    height: 20em;
     border: 1em solid transparent;
     border-radius: 11em;
     animation-name: lights;
@@ -64,8 +67,8 @@ body > * {
 
 .battery {
     display: inline-block;
-    width: 400px;
-    height: 180px;
+    width: 40%;
+    height: 20%;
     border: 20px solid #333;
     border-radius: 10px;
     position: relative;
@@ -100,5 +103,18 @@ body > * {
     100% {
         background-color: green;
         width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .battery {
+        height: 15%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .battery {
+        width: 60%;
     }
 }
